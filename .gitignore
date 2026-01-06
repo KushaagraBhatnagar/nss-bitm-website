@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# production
+dist/
+
+# local env files
+.env
+.env.local
+.env.*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# editor / OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# optional: lockfiles (keep ONE lockfile you use; do not ignore the one you rely on)
+# package-lock.json
+# pnpm-lock.yaml
+# yarn.lock
