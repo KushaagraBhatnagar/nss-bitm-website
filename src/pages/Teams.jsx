@@ -5,7 +5,7 @@ const Teams = () => {
     return (
         <div className="px-5 py-12 max-w-7xl mx-auto">
 
-            {/*EXECUTIVE BODY */}
+            
             <h2 className="text-3xl font-bold mb-12 text-center text-[#19366b]">
                 Executive Body
             </h2>
@@ -18,7 +18,7 @@ const Teams = () => {
                         transition-all duration-300
                         hover:-translate-y-2 hover:shadow-xl"
                     >
-                        {/* IMAGE (RECTANGLE, SMALLER) */}
+                        
                         <img
                             src={member.image || "/team/placeholder.jpg"}
                             alt={member.name}
@@ -30,14 +30,14 @@ const Teams = () => {
                         />
 
 
-                        <h3 className="text-sm uppercase tracking-wide text-gray-500">
+                        <h3 className="text-sm uppercase tracking-wide text-[#a30500]">
                             {member.role}
                         </h3>
                         <p className="text-lg font-semibold text-[#19366b]">
                             {member.name}
                         </p>
 
-                        {/* SOCIAL ICONS */}
+                        
                         <div className="flex justify-center gap-5 mt-4
                             opacity-0 translate-y-3
                             group-hover:opacity-100 group-hover:translate-y-0
@@ -67,7 +67,7 @@ const Teams = () => {
                 ))}
             </div>
 
-            {/*  SUB TEAMS */}
+            
             <h2 className="text-3xl font-bold mb-14 text-center text-[#19366b]">
                 Sub Teams
             </h2>
@@ -83,12 +83,12 @@ const Teams = () => {
                 ${index === teamData.teams.length - 1 ? "lg:col-span-3" : ""}
               `}
                         >
-                            {/* TEAM NAME */}
+                            
                             <h3 className="text-xl font-semibold mb-6 text-[#19366b] text-center">
                                 {team.teamName}
                             </h3>
 
-                            {/* ASSISTANT COORDINATOR CARD */}
+                            
                             <div
                                 className="group bg-white border rounded-xl p-5 text-center
                            w-full max-w-sm
