@@ -1,4 +1,4 @@
-import teamData from "../data/teamData";
+import teamData from "../data/TeamData";
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Teams = () => {
