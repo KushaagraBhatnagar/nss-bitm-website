@@ -1,5 +1,5 @@
 import React from "react";
-import teamData from "../data/teamData";
+import teamData from "../data/TeamData";
 import { FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 const TeamCard = ({ image, name, role, linkedin, instagram, email }) => {
